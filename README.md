@@ -12,7 +12,8 @@ Please review the documentation provided by VCU Libraries:
 https://github.com/vculibraries/alma-primo-customizations/blob/master/alma-primo-bookplates.md#part-2-primo-backoffice-setup
 
 
-## Bookplate frontend display installation
+
+## Bookplate Frontend Display Installation
 
 ### Update Library Logo Graphics
 
@@ -22,7 +23,7 @@ There are two logo files in css/images that need to be replaced with your librar
 
 js/bookplates.js, css/bookplates.css and css/image/* can be uploaded via the File Uploader in the Primo Admin or they can be uploaded to an external publicly viewable web server location.
 
-### Update your Primo template to include the external files
+### Update your Primo Template to Include the External Files
 
 In your Primo header or footer, add the following lines to include the remote CSS/JS files. You will need to change the values of //library.university.edu/css/bookplates.css and //library.university.edu/js/bookplates.js to the actual locations where those files are hosted.
 
@@ -37,7 +38,7 @@ In your Primo header or footer, add the following lines to include the remote CS
 
 ```
 
-### Change bookplate background image (optional)
+### Change Bookplate Background Image (optional)
 
 Four background image options have been provided. You may select any of the four images to use for your instance. To use a different image than the default, simply rename bookplate{X}.jpg to bookplate.jpg.
 
