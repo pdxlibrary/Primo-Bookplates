@@ -1,0 +1,44 @@
+/*---------------Bookplate Styles----------*/
+.bp-platinum {
+	background-image: url('images/bookplate-platinum.jpg');
+}
+
+.bp-standard {
+	background-image: url('images/bookplate.jpg');
+}
+
+.bookplate-popup {
+  position: relative;
+  padding: 40px;
+  width: 280px;
+  height: 540px;
+  margin: 20px auto;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.bookplate-text {
+  font-size: 30px;
+}
+
+h3.EXLResultFourthLine a {
+  background-image: url('images/liblogo-tiny.png');
+  background-position: 5px 50%;
+  background-repeat: no-repeat;
+  padding: 14px 16px 14px 115px !important;
+  font-weight: bold;
+  display: inline-block;
+  border: 2px solid #6a7f10;
+  margin: 8px 0;
+  max-width: 600px;
+  outline: none;
+}
+
+.bookplate_library_logo {
+	background-image: url('images/liblogo.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height:100px;
+	width:100%;
+	margin-bottom: 40px;
+}
